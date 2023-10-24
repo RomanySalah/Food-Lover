@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,500&family=Oswald&family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Quicksand', sans-serif;   
+}
+/* header section */
+.background{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.item {
+    background-image: url(../imgs/home_bg.jpeg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.item .overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* about section */
+.about-adress {
+    color: #383848;
+}
+/* offer section */
+.offer-background {
+    background-image: url(../imgs/offer-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.offer-title .txt1 {
+    font-size: 40;
+    font-weight: 600;
+}
+/* daytime section */
+#daytime {
+    background-image: url(../imgs/daytime_bg.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* gallery section */
+#gallery{
+    background-image: url(../imgs/offer-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* footer section */
+#footer{
+    background-color: #383848;
+}
